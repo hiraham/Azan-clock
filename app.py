@@ -7,6 +7,7 @@ import time
 import threading
 import matplotlib.pyplot as plt
 
+
 # Pygame initialization for playing Azan
 pygame.init()
 

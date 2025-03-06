@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 pygame.init()
 
 # Azan audio file path
-AZAN_AUDIO = "azan.mp3"  # Ensure this file is in the same directory
+AZAN_AUDIO = "https://www.islamcan.com/audio/adhan/azan1.mp3"  # Ensure this file is in the same directory
 
 # Function to draw the clock dynamically
 def draw_clock():
@@ -62,7 +62,7 @@ def play_azan():
 
 # Define Azan times (24-hour format)
 AZAN_TIMES = [
-    "05:30",  # Fajr
+    "06:55",  # Fajr
     "12:30",  # Dhuhr
     "17:00",  # Asr
     "18:30",  # Maghrib
